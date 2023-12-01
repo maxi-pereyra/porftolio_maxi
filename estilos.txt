@@ -1,0 +1,25 @@
+# COLORES 
+    1. COLORES PRINCIPALES MODO CLARO:
+        primero 50%:  #618264 ; rgb(97, 130, 100)
+    1.2 COLORES SECUNDARIOS MODO CLARO:
+        secundario 25%: #79AC78 ; rgb(121, 172, 120)
+        tercero 20%: #B0D9B1 ; rgb(176, 217, 177)
+        cuarto 5%: #D0E7D2 ; rgb(208, 231, 210)
+
+    2. COLOR PRINCIPAL MODO OBSCURO:
+        primero 50%: #040D12 ; rgb(4, 13, 18)
+    2.2 COLORES SECUNDARIOS MODO OBSCURO:
+        secundario 25%: #183D3D ;  rgb(24, 61, 61)
+        tercero 20%: #5C8374 ; rgb(92, 131, 116)
+        cuarto 5%: #93B1A6 ; rgb(147, 177, 166)
+
+# FUENTES
+
+    1. PRINCIPAL: Poopins Light 300
+    2. SECUNDARIO: Poopins Light 300 Italic
+
+# LOGOS 
+
+# IMAGENES
+
+
