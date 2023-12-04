@@ -38,7 +38,7 @@ export default function Intro() {
             sm:text-2xl sm:ml-5'
             initial={{opacity: 0 , y: 100}}
             animate={{opacity: 1 , y: 0 }}>
-                Hola soy <span className='font-bold'>Maximiliano </span>, desarrollador full stack. Enfocado en  
+                Hola soy <span className='font-bold'>Maximiliano Pereyra</span>, desarrollador full stack. Enfocado en  
                     <span className=' font-bold italic underline '> React(next js) </span>
                 
             </motion.p>
