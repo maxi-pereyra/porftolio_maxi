@@ -2,17 +2,20 @@
 
 import Intro from './componentes/Intro/Intro';
 import Projects from '../app/componentes/Projects/Projects'
-import Separador from './componentes/Separador';
-import Skills from './componentes/Skills.tsx/Skills';
+import Contact from './componentes/contact/Contact';
+import About from './componentes/About/about';
+
 export default function Home() {
   return (
-    <main className='flex flex-col items-center px-4'>
-      <Intro/>
-      <Separador/>
-      <Projects/>
-      <Separador/>
-      <Skills/>
-    </main>
+   
+      <main className='flex flex-col px-4 ml-44 mr-20 '>
+        <Intro/>
+        <About></About>
+        <Projects/>
+        <Contact></Contact>
+      </main>
+    
+    
   )
 }
 

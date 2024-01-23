@@ -1,23 +1,24 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import dogImg from '../../../public/dog.png'
 import porfolioImg from '../../../public/portfolio.png'
 import autopartImg from '../../../public/autopart.png'
 
 export const links = [
   {
-    name: "Home",
+    name: "Hola",
     hash: "#home",
   },
   {
-    name: "Projects",
+    name: "Sobre mi",
+    hash: "#about"
+  },
+  {
+    name: "Proyectos",
     hash: "#projects",
   },
   {
-    name: "Skills",
-    hash: "#skills",
+    name: "Contacto",
+    hash: "#contact",
   },
 ] as const;
 
@@ -52,25 +53,13 @@ export const projectsData = [
     imageUrl: autopartImg,
     link:"https://autopart-express.vercel.app/"
   },
-  {
-    title: "Portfolio",
-    description:
-      "Este mismo portfolio el cual lo seguire desarrollando para mejorar el diseño y experiencia de usuario.",
-    tags: ["React", "Next.js", "Tipescript", "Tailwind", "Motion"],
-    imageUrl: porfolioImg,
-    link:"https://porftolio-maxi.vercel.app/"
-  },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
-  "Git",
   "Tailwind",
   "Prisma",
   "Redux",

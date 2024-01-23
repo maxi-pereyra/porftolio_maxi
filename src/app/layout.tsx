@@ -1,7 +1,9 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Header from './componentes/header/header'
+import Header_complet from './componentes/header/header_complet'
+import ThemeSwitch from './componentes/ThemeSwitch'
+import Redes from './componentes/Redes'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,10 +19,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gray-300 text-gray-950 relative pt-28 sm:pt-36 ` }>
-        
-        <Header></Header>
-        {children}</body>
+      <body className={`${inter.className} bg-gray-50 text-gray-950 relative 
+        dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90` }>
+        <Header_complet></Header_complet>
+        {children}
+        <Redes/>
+        <ThemeSwitch/>
+        </body>
     </html>
   )
 }

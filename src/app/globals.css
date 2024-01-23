@@ -3,3 +3,12 @@
 @tailwind utilities;
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap');
  */
+
+
+ html {
+    --line-color: #e5e7ed;
+ }
+
+ .borderBlack {
+     @apply border border-black/10;
+ }
