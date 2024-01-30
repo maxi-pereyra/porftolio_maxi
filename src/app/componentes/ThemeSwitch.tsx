@@ -34,7 +34,7 @@ export default function ThemeSwitch() {
 
   return (
     <button className="fixed bottom-5 right-5 bg-white w-[3rem] h-[3rem] bg-opacity-80
-    border  rounded-full flex items-center justify-center hover:scale-[1.15] active:scale-105 transition-all dark:bg-gray-950"
+    border border-black rounded-full flex items-center justify-center hover:scale-[1.15] active:scale-105 transition-all dark:bg-gray-950"
         onClick={toggleTheme}>
         {theme}
     </button>

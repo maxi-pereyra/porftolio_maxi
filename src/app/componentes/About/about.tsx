@@ -9,8 +9,8 @@ function About() {
   return (
     <div id='about'>
         <SectionsHead>Sobre mi</SectionsHead>   
-        <div className='flex'>
-            <div className='w-1/2 text-base font-medium'>
+        <div className='flex max-sm:flex-col'>
+            <div className='w-1/2 text-base font-medium max-sm:w-full'>
                 <p>Hola!! me llamo Maxi Abel Pereyra , me gusta construir para la web , investigar y encontrarme con genialidades de la web.
                     Mi gusto por el desarrollo web surge de emprender con el comercio electronico en 2023 ,
                     probrando hacer mi propia tienda online quede inmerso con lo que se podia hacer 

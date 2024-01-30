@@ -46,6 +46,7 @@ function Project({title,description,tags,imageUrl,link}: ProjectProps) {
             className='absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl hover:scale-110'/>
         </Link>
       </div>
+      
     </section>
   
   }
