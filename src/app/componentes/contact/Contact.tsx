@@ -3,6 +3,7 @@ import React from 'react'
 import SectionsHead from '../Section_head'
 import { motion } from "framer-motion"
 import { sendEmail } from "../../../../actions/sendEmail"
+
 function Contact() {
   return (
     <motion.section
@@ -19,8 +20,11 @@ function Contact() {
      }}>
        
         <SectionsHead> contactame </SectionsHead>
-        <p>Escribeme  un correo a <a className='ubderline' href='mailto:example@gmail.com'>
-            maxi.abel.pereyra@outlook.com</a> </p>
+        <p>Escribeme  un correo a 
+
+            <a className='ubderline' href='mailto:example@gmail.com'>
+            maxi.abel.pereyra@outlook.com</a>
+         </p>
         <form className='mt-10 w-[50%] flex flex-col max-sm:w-full max-sm:items-center'
          action={async (formData)=> {
             await sendEmail(formData);

@@ -11,14 +11,13 @@ function About() {
         <SectionsHead>Sobre mi</SectionsHead>   
         <div className='flex max-sm:flex-col'>
             <div className='w-1/2 text-base font-medium max-sm:w-full'>
-                <p>Hola!! me llamo Maxi Abel Pereyra , me gusta construir para la web , investigar y encontrarme con genialidades de la web.
+                <p>Hola!! me llamo Maxi Abel Pereyra , me gusta construir para la web y estar informado informado de las nuevas tecnologias.
                     Mi gusto por el desarrollo web surge de emprender con el comercio electronico en 2023 ,
                     probrando hacer mi propia tienda online quede inmerso con lo que se podia hacer 
                     con HTML y CSS.  
                 </p><br />
                 <p>
-                    Complete el bootcamp de soy Henry, ha la fecha trabajo en proyectos propio y 
-                    tambien en un MVP con un equipo mediante la propuesta de NO Country, 
+                    Complete el bootcamp de soy Henry, ha la fecha trabajo en proyectos propio 
                     para seguir mejorando mis habilidades.
                 </p><br />
 
