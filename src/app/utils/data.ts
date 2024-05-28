@@ -2,7 +2,7 @@ import React from "react";
 import dogImg from '../../../public/dog.png'
 import porfolioImg from '../../../public/portfolio.png'
 import autopartImg from '../../../public/autopart.png'
-
+import gourmet from '../../../public/gourmet.jpg'
 export const links = [
   {
     name: "Hola",
@@ -49,9 +49,17 @@ export const projectsData = [
     title: "Autopat-Express",
     description:
       "Una Aplicacion tipo E-commerce donde trabaje en equipo aplicando metodologias agiles (SCRUM), Mercado Pago, Notificaciones, autenticacion de terceros, github.",
-    tags: ["React",  "Next.js", "Tipescript" , "Tailwind", "Prisma" ],
+    tags: ["React",  "Next.js", "Typescript" , "Tailwind", "Prisma" ],
     imageUrl: autopartImg,
     link:"https://autopart-express.vercel.app/"
+  },
+  {
+    title: "Food-restorant",
+    description:
+      "Una Aplicacion para un restaurante que permita gestionar reserva de clientes, resibir reseñas, organizar los proveedores y platos para optimizar el desperdicio, al tratarse de un lugar turistico sera tomado en cuneta las temporadas de mas alta demanda y la mas baja.",
+    tags: ["Express","Mongodb","React","Typescript" ,"Tailwind"],
+    imageUrl: gourmet,
+    link:"en proceso"
   },
 ] as const;
 

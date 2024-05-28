@@ -12,3 +12,9 @@
  .borderBlack {
      @apply border border-black/10;
  }
+/* example */
+/*  @layer components{
+    .card{
+        @apply text-white
+    }
+ } */

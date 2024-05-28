@@ -14,9 +14,9 @@ function Header_complet() {
             <ul className='flex w-[22rem] flex-wrap items-center justify-center mr-6 gap-y-1 text-[0.9rem]
             font-medium text-white sm:w-[initial] sm:flex-nowrap sm:gap-5 sm:bg-red-600s'>
                 {
-                  links.map(link => (
+                  links.map((link,index) => (
                     
-                      <Link href={link.hash}
+                      <Link key={index} href={link.hash}
                       className='mr-2'>{link.name}</Link>
                     
                   ))
